@@ -3,7 +3,9 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  bot.user.setStatus('dnd');
+   client.user.setPresence({
+        status: "dnd"
+        }
 });
 
 client.login(process.env.BOT_TOKEN)
