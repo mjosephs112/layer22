@@ -5,7 +5,8 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
    client.user.setPresence({
         status: "dnd"
-        }
+   )}
+                           
 });
 
 client.login(process.env.BOT_TOKEN)
