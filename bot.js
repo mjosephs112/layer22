@@ -6,6 +6,6 @@ client.on('ready', () => {
 });
 	bot.user.setStatus('layer22.jp')
 }
-});
+);
 
 client.login(process.env.BOT_TOKEN);
